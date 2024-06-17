@@ -1,0 +1,6 @@
+{
+    "employee_select": "Выбран пользователь @{username}.",
+    "employee_update_office": "Привязанный к сотруднику офис изменён на \"{title}\".",
+    "employee_add_office": "К сотруднику добавлен офис \"{title}\".",
+    "employee_add_user": "Выбран пользователь: @{username}."
+}

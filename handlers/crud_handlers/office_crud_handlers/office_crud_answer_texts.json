@@ -1,0 +1,12 @@
+{
+    "office_select": "Выбран офис {title}.",
+    "office_update_address": "Вы поменяли адрес офиса на : {address}.",
+    "office_update_title": "Вы поменяли название офиса на : {title}.",
+    "office_update_manager": "Вы поменяли управляющего офиса на : @{username}.",
+    "office_add_manager": "К офису добавлен управляющий @{username}.",
+    "office_add_address": "К офису добавлен адрес : {address}.",
+    "office_add_title": "К офису добавлено название : {title}.",
+    "office_fill_fields": "Необходимо заполнить все поля",
+    "office_correct_username": "Управляющий с username {username} не зарегистрирован в боте. Введите, пожалуйста, корректный username управляющего."
+
+}

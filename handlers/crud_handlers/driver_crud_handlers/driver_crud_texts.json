@@ -1,0 +1,18 @@
+{
+    "driver_choose": "Введите username или номер водителя, пожалуйста",
+    "user_not_registered": "Пользователь с таким username не зарегистрирован в боте. Попробуйте ещё раз: сообщение должно содержать только username.",
+    "wrong_number": "Введите номер телефона в формате +998901112233",
+    "no_driver_with_username": "Водителя с таким username нет в базе.",
+    "no_driver_with_phone": "Водителя с таким телефоном нет в базе.",
+    "select_action": "Выберите действие:",
+    "driver_edit": "Что Вы хотите изменить?",
+    "driver_scores": "У водителя {scores} баллов. Введите новое количество баллов:",
+    "confirm_block": "Вы хотите {action} водителя?\nОтправьте Да для подтверждения действия. Для отмены отправьте любые символы или нажмите Назад.",
+    "number_only": "Пожалуйста, отправьте только число.",
+    "scores_updated": "Количество баллов было успешно изменено. У водителя {scores} баллов.",
+    "block_success": "Пользователь успешно {action}!",
+    "update_trust": "Теперь водитель {not_}может бронировать подарки без баллов!",
+    "action_cancelled": "Действие отменено!",
+    "driver_info": "Имя: {first_name} {middle_name} {last_name}\nНомер телефона: {phone_number}\n\nКоличество баллов: {scores}\nСтатус: {status}\nМожет бронировать без баллов: {trusted}\n\nTelegram ID: {telegram_id}\nTelegram username: {telegram_username}\nTelegram name: {telegram_name}\n\nYandex ID: {yandex_id}\ncallsign: {callsign}"
+
+}

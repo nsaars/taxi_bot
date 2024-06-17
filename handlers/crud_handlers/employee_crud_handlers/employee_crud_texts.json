@@ -1,0 +1,16 @@
+{
+    "employee_menu": "Выберите действие:",
+    "employee_select_menu": "Выберите действие:",
+    "employee_edit": "Что вы хотите изменить?",
+    "employee_choose": "Введите username сотрудника, пожалуйста",
+    "employee_view": "Telegram ID: {id}\nTelegram username: {username}\nTelegram name: {name}\nПривязанный офис: {office}",
+    "employee_edit_office": "Сотрудник привязан к офису {title}. Выберите из списка офис, к которому хотите привязать сотрудника:",
+    "employee_add": "Нажмите на поле, которое хотите добавить:",
+    "employee_add_office": "Выберите из списка офис, к которому хотите привязать сотрудника:",
+    "employee_add_username": "Введите username пользователя, пожалуйста",
+    "employee_correct_username": "Пользователь с username {username} не зарегистрирован в боте. Введите, пожалуйста, корректный username сотрудника.",
+    "employee_already_exist": "Сотрудник с username @{username} уже существует.",
+    "employee_save": "Вы добавили нового сотрудника в офис {office}!",
+    "employee_remove": "Сотрудник удалён",
+    "employee_fill_fields": "Необходимо заполнить все поля"
+}

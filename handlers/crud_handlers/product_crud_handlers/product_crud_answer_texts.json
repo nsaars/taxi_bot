@@ -1,0 +1,16 @@
+{
+    "product_select": "Выбран продукт {title}.",
+    "product_update_title": "Вы поменяли название продукта на : {title}.",
+    "product_update_money_price": "Вы поменяли цену (деньги) продукта на : {money_price}.",
+    "product_update_score_price": "Вы поменяли цену (очки) продукта на : {score_price}.",
+    "product_update_image": "Вы поменяли изображение продукта",
+    "product_update_description": "Вы поменяли описание продукта на : {description}.",
+    "product_add_title": "К продукту добавлено название : {title}.",
+    "product_add_money_price": "К продукту добавлена цена (деньги) : {money_price}.",
+    "product_add_score_price": "К продукту добавлена цена (очки) : {score_price}.",
+    "product_add_image": "К продукту добавлено изображение",
+    "product_add_description": "К продукту добавлено описание : {description}.",
+    "product_fill_fields": "Необходимо заполнить все поля",
+    "number_only": "Пожалуйста, отправьте только число."
+
+}

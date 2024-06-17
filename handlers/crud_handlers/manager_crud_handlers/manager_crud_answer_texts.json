@@ -1,0 +1,7 @@
+{
+    "manager_select": "Выбран пользователь @{username}.",
+    "manager_added_office": "К управляющему добавлен офис \"{title}\".",
+    "manager_removed_office": "У управляющего удалён офис \"{title}\".",
+    "manager_add_office": "К менеджеру добавлен офис \"{title}\".",
+    "manager_add_user": "Выбран пользователь: @{username}."
+}

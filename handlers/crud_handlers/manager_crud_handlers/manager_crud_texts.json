@@ -1,0 +1,17 @@
+{
+    "manager_menu": "Выберите действие:",
+    "manager_select_menu": "Выберите действие:",
+    "manager_edit": "Что вы хотите изменить?",
+    "manager_choose": "Введите username менеджера, пожалуйста",
+    "manager_view": "Telegram ID: {id}\nTelegram username: {username}\nTelegram name: {name}\nПривязанные офисы: {offices}\n",
+    "manager_edit_office": "Выберите действие:",
+    "manager_add": "Нажмите на поле, которое хотите добавить:",
+    "manager_add_office": "Выберите из списка офис, который хотите добавить управляющему",
+    "manager_remove_office": "Выберите из списка офис, который хотите удалить у управляющего",
+    "manager_add_username": "Введите username пользователя, пожалуйста",
+    "manager_correct_username": "Пользователь с username @{username} не зарегистрирован в боте. Введите, пожалуйста, корректный username менеджера.",
+    "manager_already_exist": "Менеджер с username @{username} уже существует.",
+    "manager_save": "Вы добавили нового менеджера!",
+    "manager_remove": "Менеджер удалён",
+    "manager_fill_fields": "Необходимо заполнить все поля"
+}
