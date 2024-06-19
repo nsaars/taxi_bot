@@ -14,8 +14,10 @@ class CustomFSMContext(FSMContext):
         self.state = get_state_by_user_telegram_id(int(self.key.user_id))
         if not self.state:
             user = get_user_by_telegram_id(self.key.user_id)
+            print(user, 1)
             if not user:
                 user = create_user({'telegram_id': self.key.user_id, 'telegram_username': username, 'telegram_name': name})
+            print(user, 2)
             self.state = create_state({'user_id': user['id']})
 
     async def set_state(self, state: str = None) -> None:
