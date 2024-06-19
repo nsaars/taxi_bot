@@ -1,7 +1,6 @@
 import requests
 from typing import Any, Dict, List, Optional
-
-BASE_URL = "http://127.0.0.1:8000/api"  # Replace with your actual API URL
+from data.config import API_BASE_URL
 
 
 class ApiClient:
@@ -29,5 +28,5 @@ class ApiClient:
         return self._request("DELETE", endpoint, params=filters)
 
 
-api_client: ApiClient = ApiClient(BASE_URL)
+api_client: ApiClient = ApiClient(API_BASE_URL)
 
