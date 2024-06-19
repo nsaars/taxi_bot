@@ -17,7 +17,7 @@ class CustomFSMContext(FSMContext):
             print(user, 1)
             if not user:
                 user = create_user({'telegram_id': self.key.user_id, 'telegram_username': username, 'telegram_name': name})
-            print(user, 2)
+            print(2, user)
             self.state = create_state({'user_id': user['id']})
 
     async def set_state(self, state: str = None) -> None:
