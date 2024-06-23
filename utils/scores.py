@@ -38,7 +38,7 @@ class ScoreCounter:
                     },
                     "order": {
                         "booked_at": {
-                            "from": datetime.strptime(from_time, "%Y-%m-%dT%H:%M:%S.%f").strftime(
+                            "from": datetime.strptime(from_time, "%Y-%m-%dT%H:%M:%S").strftime(
                                 "%Y-%m-%dT%H:%M:%S+00:00"),
                             "to": to_time or datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
                         },

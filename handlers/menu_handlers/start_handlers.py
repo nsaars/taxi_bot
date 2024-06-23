@@ -36,6 +36,7 @@ async def start_handler(message: types.Message, state: FSMContext):
     user = get_user_by_telegram_id(message.from_user.id)
 
     if user is not None:
+        update_user(user['id'], {"telegram_username": message.from_user.username, "telegram_name": message.from_user.full_name})
         driver = get_driver_by_user_id(user['id'])
         if driver:
             current_cart = get_cart_by_driver_id(driver['id'])

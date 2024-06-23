@@ -42,14 +42,14 @@ class DriverMiddleware(BaseMiddleware, ABC):
                 if get_driver_by_id(current_driver['id']).get('is_blocked'):
                     return
                 now = datetime.now()
-                scores_updated_at = datetime.strptime(current_driver['scores_updated_at'], "%Y-%m-%dT%H:%M:%S.%f")
+                scores_updated_at = datetime.strptime(current_driver['scores_updated_at'], "%Y-%m-%dT%H:%M:%S")
 
                 time_delta = now - scores_updated_at
                 if time_delta.seconds > self.MIN_TIME_DELTA:
                     driver = get_driver_by_id(current_driver['id'])
                     new_scores = ScoreCounter.get_driver_new_scores(driver)
                     update_driver(driver['id'], {'scores': driver['scores'] + new_scores,
-                                                 'scores_updated_at': now.strftime("%Y-%m-%dT%H:%M:%S.%f")})
+                                                 'scores_updated_at': now.strftime("%Y-%m-%dT%H:%M:%S")})
                     await data['state'].update_data({'current_driver': driver})
 
         return await handler(event, data)
